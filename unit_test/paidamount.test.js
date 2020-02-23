@@ -1,4 +1,4 @@
-const amount = require("../math");
+const amount = require("../amount");
 
 test("should calculate the total with tip", () => {
     const total = amount.calculateTip(100, 0.1);
