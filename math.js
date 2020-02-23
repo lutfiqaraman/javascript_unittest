@@ -1,0 +1,1 @@
+exports.calculateTip = (total, tipPrecentage = 0.25) => total + total * tipPrecentage;
